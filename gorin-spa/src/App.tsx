@@ -66,7 +66,7 @@ const ContactItem = styled.p`
 `;
 
 const App: React.FC = () => {
-  const googleMapsApiKey = 'AIzaSyDwun9Kuu4Ve75Z7lyx11DwerPihWxv_Ow'; // Cseréld le a saját API kulcsodra
+  const googleMapsApiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY || '';
   const gymLocation = {
     lat: 47.45925395810311, // Cseréld le az edzőterem valós koordinátáira
     lng: 19.14640719575657,
