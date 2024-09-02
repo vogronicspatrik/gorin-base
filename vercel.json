@@ -1,0 +1,4 @@
+{
+    "buildCommand": "cd gorin-spa && npm install && npm run build",
+    "outputDirectory": "gorin-spa/build"
+  }
